@@ -10,6 +10,7 @@ def find_critical_load(L, E, A, r, c, e, sigma_allow):
 
     Return: העומס P בניוטון (float)
     """
+    
     # חישוב עומס קריסה של אוילר (Euler buckling load) עם תיקון החזקות
     # עומס זה מהווה את הגבול העליון התיאורטי שלנו
     P_euler = (np.pi**2 * E * A * (r**2)) / (L**2)
